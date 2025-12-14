@@ -1,76 +1,160 @@
 # Microsoft 365 Admin Lab – Luminous Solutions
 
-This project documents a hands-on Microsoft 365 admin lab using a fictional company, **Luminous Solutions, Inc.** The lab demonstrates user management, license assignment, team and group creation, and basic security configuration in a Microsoft 365 environment.
+This project documents a hands-on Microsoft 365 admin lab using a fictional company, **Luminous Solutions, Inc.** The lab demonstrates user management, license assignment, team and group creation, mailbox configuration, and basic security in a Microsoft 365 environment.
 
 ---
 
-## **Project Overview**
+## Project Overview
 
-- **Company Name:** Luminous Solutions, Inc.
-- **Tenant Type:** Microsoft 365 Business Basic
-- **Number of Users:** 5
-- **Admin Account:** Jonathan DeKoster (Global Admin)
-- **Purpose:** Practice and document core Microsoft 365 admin tasks, including Teams collaboration, licensing, and security settings.
+- **Company Name:** Luminous Solutions, Inc.  
+- **Tenant Type:** Microsoft 365 Business Basic  
+- **Number of Users:** 5  
+- **Admin Account:** Jonathan DeCoster (Global Admin)  
+- **Purpose:** Practice and document core Microsoft 365 admin tasks, including Teams collaboration, licensing, mailbox management, and security settings.
+
+**Lab Phases:**  
+1. Users & license management  
+2. Teams & channels setup  
+3. Exchange Online: Distribution Lists, Microsoft 365 Groups, and Shared Mailboxes  
 
 ---
 
-## **Users & Roles**
+## Phase 1: Users & Roles
 
 | Name | Role | License | Notes | Screenshots |
 |------|------|--------|-------|------------|
-| Greg Richards | SharePoint Admin | Business Basic | License toggled off/on; SharePoint admin role assigned | [Insert screenshots] |
-| Samantha McCarthy | User | Business Basic | Standard access | [Insert screenshots] |
+| Greg Richards | SharePoint Admin | Business Basic | License toggled off/on; SharePoint admin role assigned | `NewUserSuccessful`, `Greg Richards Licensed`, `Greg Richards SharePoint Admin` |
+| Samantha McCarthy | User | Business Basic | Standard access | `NewUserSamanthaMcCarthy`, `Samantha McCarthy` |
 | Jeff Page | User | Business Basic | Standard access | [Insert screenshots] |
 | Jimmy Andrews | User | Business Basic | MFA enabled | [Insert screenshots] |
 | Linda Sullivan | User | Business Basic | Standard access | [Insert screenshots] |
 
-**Notes:** Demonstrates license management, role assignment, and MFA setup.
+**Notes:** Demonstrates user creation, license assignment, role management, and MFA setup.
 
 ---
 
-## **Teams & Groups**
+## Phase 2: Entra ID & Authentication
+
+- **Setup MFA / authentication methods** for selected users.  
+- Example for Samantha McCarthy: email authentication method configured.
+
+**Screenshots:**  
+- `Microsoft Entra Admin Center`  
+- `EntraID Samantha Rolls`  
+- `EntraID Samantha Add Authentication Method`  
+- `EntraID Samantha Email Authentication`  
+- `EntraID MFA Enabled`
+
+> Demonstrates knowledge of user identity management and multi-factor authentication in Microsoft 365.
+
+---
+
+## Phase 3: Teams & Channels
 
 **Team Name:** Marketing Project  
 **Purpose:** Coordinate marketing campaigns, share project files, and communicate updates among the marketing team.  
 **Privacy:** Private (only invited members have access)  
-**Email Address:** marketingproject@luminous.com  
+**Email Address:** marketingproject@luminous.com
 
-| Owners | Members | Channels | Notes | Screenshots |
-|--------|--------|---------|-------|------------|
-| Greg Richards, Jimmy Andrews | Samantha McCarthy, Jeff Page, Linda Sullivan | General, Campaigns | Demonstrates owner roles, member addition, channel creation, and collaboration | [Insert screenshots] |
+**Team Configuration:**  
+- **Owners:** Greg Richards, Jimmy Andrews  
+- **Members:** Samantha McCarthy, Jeff Page, Linda Sullivan  
+- **Channels:** General, Announcements, Campaigns
+
+**Screenshots:**  
+- `NewTeamMarketingProject` – Creating the team  
+- `Team's Marketing Project Toggle Allow Member Permissions` – Member permissions review  
+- `Team's Page Including New Marketing Project` – Full team page with members and channels  
+- `AnnouncementsNewChannelReview`, `NewChannelCampaignsReview` – Channel creation review
+
+> Demonstrates creating teams, adding owners/members, configuring channels, and setting privacy.
 
 ---
 
-## **Licensing & Services**
+## Phase 4: Distribution List
 
-- Business Basic licenses assigned to all users (except temporary toggle-off for admin demonstration).  
+**Distribution List:** Marketing Announcements
+
+- Name: Marketing Announcements  
+- Owners & Members assigned  
+- Email address configured
+
+**Screenshots:**  
+- `add a DistributionListBasics`  
+- `add a DistributionListMembers`  
+- `add a DistributionListOwners`  
+- `add a DistributionListReview`  
+- `add a DistributionListSettingEmailAddress`
+
+> Demonstrates creating a distribution list for targeted communications.
+
+---
+
+## Phase 5: Microsoft 365 Group & Mailbox
+
+**Group Name:** Marketing Operations
+
+- Owners & members assigned  
+- Mailbox configured and verified via test email  
+- Optional alias added: Sam
+
+**Screenshots:**  
+- `NewGroupMarketingOperations`  
+- `NewGroupMarketingMembers`  
+- `NewGroupMarketingOperationsOwner`  
+- `NewGroupMarketingOperationReview`  
+- `ConfigureUserMailbox`  
+- `add Alias Sam`  
+- `Test Email for Marketing Operations Group`  
+- `Outlook Marketing Operations Test Email Success`
+
+> Demonstrates creating a Microsoft 365 Group with mailbox, assigning members, and verifying mail flow.
+
+---
+
+## Phase 6: Shared Mailbox (Optional)
+
+**Shared Mailbox:** Marketing Support
+
+- Members assigned: Greg Richards, Samantha McCarthy, Jeff Page  
+- Purpose: Centralized mailbox for marketing team support
+
+**Screenshots:**  
+- `NewSharedMailbox` – Creating the shared mailbox  
+- `MarketingSupportMembers` – Members added  
+- `MarketingSupportSummary` – Confirmation of mailbox setup
+
+> Demonstrates shared mailbox creation and collaborative email management.
+
+---
+
+## Licensing & Services
+
+- Business Basic licenses assigned to all users (temporary toggle-off used for demonstration).  
 - Services included: Teams, Exchange Online, OneDrive, SharePoint, Web Office Apps.  
-- Demonstrates ability to manage license assignment and understand included services.
+- Demonstrates license assignment and awareness of included services.
 
 ---
 
-## **Security & Admin Highlights**
+## Security & Admin Highlights
 
-- MFA enabled for select users (e.g., Jimmy Andrews).  
-- Admin roles assigned appropriately (Global Admin, SharePoint Admin).  
-- Demonstrates basic understanding of access control and user security.
-
----
-
-## **Optional Advanced Features**
-
-- Teams message posting and file uploads (screenshots to show collaboration).  
-- SharePoint site creation linked to team (optional).  
-- Exchange mailbox or group communication testing (optional).  
+- MFA enabled for select users  
+- Admin roles assigned appropriately (Global Admin, SharePoint Admin)  
+- Demonstrates understanding of access control and basic security configuration
 
 ---
 
-## **Summary**
+## Summary / Takeaways
 
-This lab demonstrates the core skills necessary for Microsoft 365 administration: creating and managing users, assigning licenses and roles, setting up Teams and groups, and configuring basic security features. The environment simulates a small company setup, providing a portfolio-ready example of practical M365 admin capabilities.
+This lab demonstrates the core skills necessary for Microsoft 365 administration:
+
+- Creating and managing users and licenses  
+- Configuring Teams, channels, and team collaboration  
+- Setting up Distribution Lists, Microsoft 365 Groups, and shared mailboxes  
+- Applying basic security configurations such as MFA and admin roles
+
+The environment simulates a small company setup, providing a **portfolio-ready example** of practical Microsoft 365 admin capabilities.
 
 ---
 
-## **Screenshots**
-
-*(Insert screenshots of homepage, users, license assignment, role assignment, team creation, channels, etc.)*
+## Screenshots
