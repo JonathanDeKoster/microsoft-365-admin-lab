@@ -13,7 +13,7 @@ This project documents a hands-on Microsoft 365 admin lab for a fictional compan
 
 ## Phase 1: Users & License Management
 
-**Objective:** Demonstrate creating users, assigning licenses, configuring roles, and enabling MFA.
+**Objective:** Demonstrate creating users, assigning licenses, and configuring roles.
 
 | Name | Role | License | Notes |
 |------|------|--------|-------|
@@ -22,6 +22,7 @@ This project documents a hands-on Microsoft 365 admin lab for a fictional compan
 | Jeff Page | Standard User | Business Basic | Standard access |
 | Jimmy Andrews | Standard User | Business Basic | MFA enabled |
 | Linda Sullivan | Standard User | Business Basic | Standard access |
+| Loraine Sunrise| Standard User| Business Basic | Standard access |
 
 **Screenshots:**
 
@@ -31,8 +32,10 @@ _Adding a new user (Samantha McCarthy)_
 _User creation confirmation_  
 ![Add New User Successful](https://github.com/user-attachments/assets/89cdad0d-c9a3-44c5-9e9d-0c244a8ba75c)
 
-_Greg Richards: License assignment & SharePoint Admin role_  
+_Greg Richards: License assignment_  
 ![Greg Richards Licensed](https://github.com/user-attachments/assets/ebaff2ef-c5b4-4fc2-acea-23b344787de6)  
+
+_Greg Richards: SharePoint Admin role_
 ![Greg Richards SharePoint Admin](https://github.com/user-attachments/assets/ca2c1708-0e9c-4b6c-9f3c-aa0ac438b765)
 
 ---
@@ -73,19 +76,21 @@ _Email authentication/MFA enabled_
 _Creating the team_  
 ![New Team - Marketing Project](https://github.com/user-attachments/assets/a0f2ed26-fd05-484b-98b5-a2a00fcb65a3)
 
+_Full team page with members_
+<img width="1600" height="774" alt="Marketing Project Post Creation Members" src="https://github.com/user-attachments/assets/e852eb95-6a91-41d8-9d84-5050b1447c92" />
+
 _Member permissions toggle_  
 ![Teams Marketing Project toggle allow member permissions](https://github.com/user-attachments/assets/83e6f8a7-d379-4f44-8179-4e199d5eb91c)
 
-_Full team page with members  
-<img width="1600" height="774" alt="Marketing Project Post Creation Members" src="https://github.com/user-attachments/assets/e852eb95-6a91-41d8-9d84-5050b1447c92" />
-
-
 
 _Channel creation review_  
+
+_Announcements Channel_
 ![Announcements new channel review](https://github.com/user-attachments/assets/6a614659-ab29-49bb-8f51-0392866eff36)  
+_Campaigns Channel_
 ![New Channel campaigns review](https://github.com/user-attachments/assets/8a654237-5a12-4266-b966-8cb5c33c97fd)
 
-_Full team page with channels
+_Full team page with channels_
 <img width="1600" height="777" alt="Marketing Project Post Creation Channels" src="https://github.com/user-attachments/assets/90087fca-698e-49d2-bc68-d01a58579959" />
 
 > Demonstrates creating teams, adding owners/members, configuring channels, and setting privacy.
@@ -109,8 +114,10 @@ _Basics_
 _Members_  
 ![Add a distribution list members](https://github.com/user-attachments/assets/f4c9f1db-c6cd-47b7-b201-b845c87471fb)  
 
-_Owners & Review_  
+_Owners_  
 ![Add a distribution list owners](https://github.com/user-attachments/assets/cb4b5a85-d369-43b1-a5a4-a8290fbda71c)  
+
+_Review_
 ![Add a distribution list review](https://github.com/user-attachments/assets/2d99d400-6819-4a57-8804-e7c04f1be78c)
 
 _Email address configured_  
@@ -130,17 +137,27 @@ _Email address configured_
 
 **Screenshots:**  
 
-_Group & Members_  
+_Group_  
 ![New Group Marketing Operations](https://github.com/user-attachments/assets/ea90191b-03aa-4346-9be0-b205cfc53ccb)  
+
+_Members_
 ![New Group Marketing Members](https://github.com/user-attachments/assets/60ba0022-c275-4332-a9f9-44f442df71e2)  
 
-_Owners & Review_  
+_Owners_  
 ![New Group Marketing Operation Owner](https://github.com/user-attachments/assets/657e5184-643a-48fd-b9a7-f5a8ce39b6c5)  
+
+_Review_
 ![New Group Marketing Operation Review](https://github.com/user-attachments/assets/3b0b5f66-d8a3-4e24-89bd-4ef2ef53c8bb)  
 
-_Mailbox Configuration & Test_  
+_Mailbox Configuration & Test_ 
+
+_Add alias for Samantha McCarthy_
 ![Configure User Mailbox add alias sam@lumsol](https://github.com/user-attachments/assets/78f86f4d-27ed-40ff-a821-b854bdd35102)  
+
+_Marketing Operations test email_
 ![Test Email for Marketing Operations Group](https://github.com/user-attachments/assets/6688c54d-112b-4380-bdfe-6cac89c11ecb)  
+
+_Marketing Operations test email received by Loraine Sunrise_
 ![Logged in as Lorraine Sunrise Outlook Marketing Operations test email success](https://github.com/user-attachments/assets/ae0e011a-8204-445c-8f8a-edc3c93f3e7d)
 
 ---
