@@ -1,8 +1,18 @@
 # Microsoft 365 Admin Lab – Luminous Solutions, Inc.
 
-This project documents a hands-on Microsoft 365 admin lab for a fictional company, **Luminous Solutions, Inc.** The lab demonstrates practical skills in **user and license management, Teams and channels setup, Exchange Online configuration, and basic security** in a Microsoft 365 environment.
+**Project Overview**
 
-**Lab Objective:** Build and document exposure to Microsoft 365 admin tasks relevant for entry-level IT/help desk roles.  
+Hands-on Microsoft 365 administration lab for a fictional company, **Luminous Solutions, Inc.** demonstrating core admin tasks in a business environment.
+
+**Lab Objective:** 
+
+Build and document practical experience with Microsoft 365 administration relevant to entry-level help desk roles.  
+
+**What This Lab Covers**
+- User and license management
+- Microsoft Teams and channel setup
+- Exchange Online configuration
+- Basic Microsoft 365 security settings
 
 **Environment:**  
 - Tenant Type: Microsoft 365 Business Basic  
