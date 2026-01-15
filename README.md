@@ -1,7 +1,8 @@
 # Microsoft 365 Admin Lab – Luminous Solutions, Inc.
 
 <p align="center">
-  ![M365](https://github.com/user-attachments/assets/dbd1290f-b35d-45bc-8e56-43a48a09575c)
+  
+<img width="500" height="281" alt="M365Logo" src="https://github.com/user-attachments/assets/51edb206-23f3-4699-a7c0-1dbb4c254549" />
 
 </p>
 
