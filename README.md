@@ -1,5 +1,10 @@
 # Microsoft 365 Admin Lab – Luminous Solutions, Inc.
 
+<p align="center">
+  ![M365](https://github.com/user-attachments/assets/dbd1290f-b35d-45bc-8e56-43a48a09575c)
+
+</p>
+
 **Project Overview**
 
 Hands-on Microsoft 365 administration lab for a fictional company, **Luminous Solutions, Inc.** demonstrating core admin tasks in a business environment.
