@@ -10,8 +10,11 @@ Build and document practical experience with Microsoft 365 administration releva
 
 **What This Lab Covers**
 - User and license management
+
 - Microsoft Teams and channel setup
+
 - Exchange Online configuration
+
 - Basic Microsoft 365 security settings
 
 **Environment:**  
